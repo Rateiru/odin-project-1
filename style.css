@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,8 +51,24 @@ a {
     padding: 20px;
     height: 25%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.heroleft {
+    height: 200px;
+    width: 300px;
+}
+
+.signupbutton {
+    color: #FFFFFF;
+    background-color: #5c9dff;
+    border-radius: 6px;
+    width: 75px;
+    height: 20px;
+    border-style:none;
+    box-sizing: border-box;
 }
 
 .info {
